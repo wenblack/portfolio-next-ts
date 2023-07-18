@@ -2,6 +2,7 @@ import React from 'react';
 import {Header} from '@/components/Header';
 import {Footer} from '@/components/Footer';
 import {Project} from '@/components/Project';
+import { AboutMe } from '@/components/AboutMe';
 
 const App = () => {
   return (
@@ -16,7 +17,7 @@ const App = () => {
           <a href="#" className="mt-4 inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">Learn More</a>
         </div>
       </header>
-      <Project />
+      <AboutMe/>
       <Project />
       <Footer />
     </div>
