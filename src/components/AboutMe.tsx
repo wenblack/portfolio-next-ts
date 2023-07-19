@@ -1,4 +1,5 @@
 import Image from "next/image";
+import avatarImg from'@/assets/1683386257269.png'
 export function AboutMe () {
   return (
     <section className="bg-gray-200 py-8">
@@ -6,7 +7,7 @@ export function AboutMe () {
         <h2 className="text-3xl text-gray-800 font-bold mb-4">Who Am I?</h2>
         <div className="flex flex-col md:flex-row">
           <div className="md:w-1/2 md:pr-4">
-            <Image src="https://github.com/wenblack.png" alt="Profile Image" className="rounded-full w-48 h-48 mx-auto md:mx-0 mb-4 md:mr-4" />
+            <Image src={avatarImg} width={200}height={200} alt="Profile Image" className="rounded-full w-48 h-48 mx-auto md:mx-0 mb-4 md:mr-4" />
           </div>
           <div className="md:w-1/2">
             <p className="text-gray-600">Hi there! I&apos;m [Your Name], a passionate Front-End Developer with a keen eye for detail and a love for clean, elegant code. With [X] years of experience in web development, I specialize in crafting delightful user interfaces using modern web technologies.</p>
