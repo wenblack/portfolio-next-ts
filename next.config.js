@@ -7,8 +7,6 @@ module.exports = {
             {
                 protocol: 'http',
                 hostname: 'github.com',
-                port: '',
-                pathname: '',
             },
         ],
     },
