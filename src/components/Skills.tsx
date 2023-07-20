@@ -6,7 +6,6 @@ import reactIcon from "@/assets/react.svg"
 import nextIcon from "@/assets/next-js.svg"
 import tsIcon from "@/assets/typescript.svg"
 import tailWindIcon from '@/assets/tailwindcss.svg'
-import linkedIn from "@/assets/linkedin.svg"
 import windowsIcon from "@/assets/windows.svg"
 import linuxIcon from "@/assets/linux.svg"
 
@@ -16,7 +15,7 @@ export function Skills ()  {
   return (
     <section className="py-8">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl text-gray-200 font-bold mb-4">Skills</h2>
+        <h2 className="text-3xl text-gray-200 font-bold mb-4">Hard Skills</h2>
         <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-4 gap-8">
           <div className=" hover:animate-pulse  flex flex-col gap-4 items-center justify-center  border-indigo-500 py-4 px-2 xs:max-w-[160px] border rounded">
             <Image alt="Html 5 Logo" src={htmlIcon} width={60} height={60}></Image>

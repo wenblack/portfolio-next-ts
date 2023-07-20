@@ -4,6 +4,7 @@ import {Footer} from '@/components/Footer';
 import {Project} from '@/components/Project';
 import { AboutMe } from '@/components/AboutMe';
 import { Skills } from '@/components/Skills';
+import { SoftSkills } from '@/components/SoftSkills';
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
       </header>
       <AboutMe/>
       <Project />
+      <SoftSkills/>
       <Skills/>
       <Footer />
     </div>
