@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="Logo" src=".github/logo.png" width="200px" />
+  <img alt="Logo" src=".github/logo.png"  />
 <h1 align="center">
   My Portfolio 
 </h1>
