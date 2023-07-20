@@ -1,65 +1,47 @@
-### Hi there ! 👋
+<p align="center">
+  <img alt="Logo" src=".github/logo.png" width="200px" />
+<h1 align="center">
+  My Portfolio 
+</h1>
+</p>
 
-----------------------------------------------------------------------------
-
-# WELCOME!
-
- 
-
-## I'm Wender!
-
- 
-
-📱 <strong>I'm Front End Developer!
-
-:house_with_garden: I’m from Brazil.
-
-:books: I’m currently learning React JS.
-
-:outbox_tray: 2022 Goals: create news projects and find a new job.
-
-
-
- ----------------------------------------------------------------------------
-
-## ABOUT ME
-<div>
- <a href="https://api.whatsapp.com/send?phone=5511992566539&text=Ol%C3%A1!"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
- <a href="https://www.instagram.com/wen_barbosa"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" /></a>
- <a href="mailto:wenblack012@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
- <a href="https://www.linkedin.com/in/wender-jose-santos-4b1473217/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-</div>
-
-----------------------------------------------------------------------------
+<p align="center">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/wenblack/portfolio-next-ts">
+  <a href="https://www.linkedin.com/in/wenblack/">
+    <img alt="Made by" src="https://img.shields.io/badge/made%20by-Wender%20Barbosa-gree">
+  </a>
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/wenblack/portfolio-next-ts">
+  <a href="https://github.com/wenblack/portfolio-next-ts/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/wenblack/portfolio-next-ts">
+  </a>
+  <a href="https://github.com/wenblack/portfolio-next-ts/issues">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/wenblack/portfolio-next-ts">
+  </a>
+  <img alt="GitHub" src="https://img.shields.io/github/license/wenblack/portfolio-next-ts">
+</p>
 
 
-## MY SKILLS
-<div>
-<img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
-<img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
-<img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
-<img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
-<img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
-<img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
+📝 About the Project:
+---
+This portfolio demonstrates my expertise in front-end development using Next.js, a powerful React framework. The website features a modern and responsive user interface, thanks to Tailwind CSS, providing seamless navigation on various devices.
+
+💻 Technologies Used:
+---
+- Next.js: Leveraging the power of server-side rendering and routing for a faster, SEO-friendly experience.
+- React: Building interactive and dynamic user interfaces with the most popular JavaScript library.
+- TypeScript: Ensuring strict typing and enhanced code quality throughout the project.
+- Tailwind CSS: Rapidly styling the components and maintaining consistency with utility-first CSS.
 
 
-</div>
+🔃 Future Updates:
+---
+- 🔲 Light theme ☀️
+- 🔲 Automatic detection of the user's system color scheme 🎨
+- 🔲 Toggle color scheme button 🌓
 
-##
-----------------------------------------------------------------------------------
 
-## ACTIVITY
-<!-- github workflow  -->
-<div>
- <a href="https://www.github.com/wenblack">
-  <img height="180em" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=wenblack&&show_icons=true&theme=dark"/>
-  <img height="180em" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=wenblack&layout=compact&langs_count=16&theme=dark&count_private=false"/>
-</div>
- 
 
- ![github contribution grid snake animation](https://raw.githubusercontent.com/devjosecarlosteles/devjosecarlosteles/output/github-contribution-grid-snake.svg)
-</a>
+I invite you all to take a look at my portfolio website and provide your valuable feedback! Your insights will help me grow and improve as a developer. 😊
 
-- Thanks for visiting.
 
-- Enjoy it!! 😄
+
