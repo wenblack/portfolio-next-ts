@@ -1,5 +1,4 @@
 import Image from "next/image";
-import avatarImg from'@/assets/1683386257269.png'
 import gitHubLogo from '@/assets/gh.svg'
 import linkedInLogo from '@/assets/linkedin.svg'
 
@@ -16,10 +15,10 @@ export function AboutMe () {
           <div className=" bg-gray-800 mt-8">
             <p className="bg-gray-800 text-slate-300  text-justify">Hello there! I&apos;m passionate Front-End Developer in production environment.  Currently focused on mastering React.js, Next.js, and TypeScript, I&apos;m continuously expanding my skill set to deliver top-notch user interfaces.  Let&apos;s create remarkable web experiences together!</p>
             <div className="bg-gray-800 flex flex-wrap mt-4">
-              <a href="https://www.example.com"  target="_blank" rel="noopener noreferrer" className="mr-4 px-6 py-1 mb-2 md:mb-0 bg-[#986DFF] hover:opacity-70  text-white font-bold rounded">
+              <a href="https://www.linkedin.com/in/wender-jose-santos-4b1473217/"  target="_blank" rel="noopener noreferrer" className="mr-4 px-6 py-1 mb-2 md:mb-0 bg-[#986DFF] hover:opacity-70  text-white font-bold rounded">
                 <Image className="bg-[#986DFF]" alt="LinkedIn Logo" width={25} height={25} src={linkedInLogo}/>
               </a>
-              <a href="https://www.example.com"  target="_blank" rel="noopener noreferrer" className="mr-4 px-6 py-1 mb-2 md:mb-0 bg-[#986DFF] hover:opacity-70  text-white font-bold rounded">
+              <a href="https://github.com/wenblack/"  target="_blank" rel="noopener noreferrer" className="mr-4 px-6 py-1 mb-2 md:mb-0 bg-[#986DFF] hover:opacity-70  text-white font-bold rounded">
               <Image  className="bg-[#986DFF]" alt="GitHub Logo" width={25} height={25} src={gitHubLogo}/>
               </a>
             </div>
