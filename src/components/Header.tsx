@@ -1,6 +1,6 @@
 "use client"
 
-import React, { useState } from 'react';
+import React, { MouseEventHandler, useState } from 'react';
 
 export function  Header () {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -9,11 +9,15 @@ export function  Header () {
     setIsMenuOpen(prevState => !prevState);
   };
 
+  function closeMenu(){
+    setIsMenuOpen(false)
+  }
+
   return (
     <div className="sticky top-0 w-full max-w-[100vw] border-b border-zinc-800">
       {/* Mobile and Desktop Menu */}
       <nav className="py-4 mx-4 flex items-center justify-between">
-        <a href="#" className="text-white font-semibold text-lg">WEN BARBOSA</a>
+        <a  href="#" className="text-white font-semibold text-lg">WEN BARBOSA</a>
 
         {/* Mobile Menu Button */}
         <button className="mobile-menu-button md:hidden" onClick={toggleMenu}>
@@ -24,20 +28,20 @@ export function  Header () {
 
         {/* Desktop Menu */}
         <ul className={`hidden md:flex md:space-x-4 ${isMenuOpen ? '' : 'hidden'}`}>
-          <li><a href="#" className="text-white">Home</a></li>
-          <li><a href="#about" className="text-white">About</a></li>
-          <li><a href="#projects" className="text-white">Projects</a></li>
-          <li><a href="#skills" className="text-white">Skills</a></li>
+          <li><a  href="#" className="text-white">Home</a></li>
+          <li><a  href="#about" className="text-white">About</a></li>
+          <li><a  href="#projects" className="text-white">Projects</a></li>
+          <li><a  href="#skills" className="text-white">Skills</a></li>
         </ul>
       </nav>
 
       {/* Mobile Menu Drawer */}
       <div className={`mobile-menu  ${isMenuOpen ? '' : 'hidden'} md:hidden`}>
         <ul className="flex flex-col bg-zinc-900 rounded-lg py-4">
-          <li className="bg-zinc-900 p-4"><a href="#" className="block text-white bg-zinc-900">Home</a></li>
-          <li className="bg-zinc-900 p-4"><a href="#about" className="block text-white bg-zinc-900">About</a></li>
-          <li className="bg-zinc-900 p-4"><a href="#projects" className="block text-white bg-zinc-900">Projects</a></li>
-          <li className="bg-zinc-900 p-4"><a href="#skills" className="block text-white bg-zinc-900">Skills</a></li>
+          <li className="bg-zinc-900 p-4"><a onClick={closeMenu} href="#" className="block text-white bg-zinc-900">Home</a></li>
+          <li className="bg-zinc-900 p-4"><a onClick={closeMenu} href="#about" className="block text-white bg-zinc-900">About</a></li>
+          <li className="bg-zinc-900 p-4"><a onClick={closeMenu} href="#projects" className="block text-white bg-zinc-900">Projects</a></li>
+          <li className="bg-zinc-900 p-4"><a onClick={closeMenu} href="#skills" className="block text-white bg-zinc-900">Skills</a></li>
         </ul>
       </div>
     </div>
